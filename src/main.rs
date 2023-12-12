@@ -17,7 +17,7 @@ fn main() {
     let matches = App::new("Rustpass")
         .version("1.0")
         .author("j0giwa")
-        .about("A simple CLI app with argument parsing")
+        .about("A password generator")
         .arg(
             Arg::with_name("length")
                 .short("l")
